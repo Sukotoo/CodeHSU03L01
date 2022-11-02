@@ -18,12 +18,12 @@ public class Booleans {
         //you don't have to use an if statement yet, you can just print the boolean value
 
         int age1 = 12;
-        System.out.println("This person is an adult over 18: "); //complete this statement to print true or false
-        System.out.println("This person can drive a car legally: "); //complete this statement to print true or false
+        System.out.println("This person is an adult over 18: " + (age1 >= 18)); //complete this statement to print true or false
+        System.out.println("This person can drive a car legally: " + (age1 >= 15)); //complete this statement to print true or false
 
         int age2 = 27;
-        System.out.println("This person is an adult over 18: "); //complete this statement to print true or false
-        System.out.println("This person can drive a car legally: "); //complete this statement to print true or false
+        System.out.println("This person is an adult over 18: " + (age2 >= 18)); //complete this statement to print true or false
+        System.out.println("This person can drive a car legally: " + (age2 >= 15)); //complete this statement to print true or false
 
     }
 }
